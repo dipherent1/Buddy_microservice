@@ -1,0 +1,23 @@
+{
+  "agent_name": "expander",
+  "user_prompt": "Refine the automation for creating a weekly project status dashboard.",
+  "context": {
+    "chosen_task": {
+      "order": 2,
+      "name": "Generate weekly status dashboard",
+      "description": "Create a Notion page summarizing project KPIs (tasks completed, blockers, upcoming milestones) and a Google Sheet with a table for weekly metrics.",
+      "status": "pending",
+      "is_automated": true
+    },
+    "clarification_answers": {
+      "kpi_definitions": "Tasks completed = tasks marked done in last 7 days; blockers = tasks stuck >3 days; milestones = next 2 weeks.",
+      "reporting_frequency": "Weekly",
+      "primary_audience": "Project stakeholders"
+    },
+    "user_memory": {
+      "preferred_tools": ["notion", "google sheets"],
+      "timezone": "America/Los_Angeles",
+      "project": {"name": "Phoenix", "slug": "phoenix"}
+    }
+  }
+}

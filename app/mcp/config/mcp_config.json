@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "google-calendar": {
+      "transport": "stdio",
+      "command": "c:\\Users\\HP\\OneDrive\\Desktop\\Development\\work\\Budera\\project-x-ai-service\\venv\\Scripts\\python.exe",
+      "args": ["-m", "app.mcp.google_calendar_mcp.app"]
+    },
+
+    "google-doc-sheet": {
+      "transport": "stdio",
+      "command": "c:\\Users\\HP\\OneDrive\\Desktop\\Development\\work\\Budera\\project-x-ai-service\\venv\\Scripts\\python.exe",
+      "args": ["-m", "app.mcp.google_doc_sheet_mcp.tool"]
+    },
+
+    "gmail-mcp": {
+      "transport": "stdio",
+      "command": "c:\\Users\\HP\\OneDrive\\Desktop\\Development\\work\\Budera\\project-x-ai-service\\venv\\Scripts\\python.exe",
+      "args": ["-m", "app.mcp.gmail_mcp.app"]
+    },
+
+    "slack-mcp": {
+      "transport": "stdio",
+      "command": "c:\\Users\\HP\\OneDrive\\Desktop\\Development\\work\\Budera\\project-x-ai-service\\venv\\Scripts\\python.exe",
+      "args": ["-m", "app.mcp.slack_mcp.app"]
+    }
+  }
+}

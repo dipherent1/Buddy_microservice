@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=66", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project-x-ai-service"
+version = "0.1.0"
+description = "Buddy AI service package"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["app", "app.*"]
